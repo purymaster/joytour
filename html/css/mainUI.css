@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/********************************* 메인페이지 *********************************/
+
+/* 패키지상품 목록 */
+.pack #content {width:1001px; margin:0 auto; padding:30px; padding-right:29px; background:#fff; min-height:609px; margin-top:20px;}
+.pack #content h2 {font-size:24px; line-height:36px; margin-top:-6px; font-weight:700; color:#4c4c4c;}
+.pack #content ul {margin-top:20px; overflow:hidden; margin-left:-20px;}
+.pack #content ul li {display:inline; float:left; width:322px; margin:0 0 20px 18px;}
+.pack #content ul li .div {display:block; background:#f1f2f3; padding:20px;}
+.pack #content ul li .div strong {display:inline-block; width:282px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:18px; line-height:20px; font-weight:700; color:#0d0d0d;}
+.pack #content ul li .div span {display:block; font-size:12px; line-height:18px; color:#6e6e6e; word-break:keep-all; max-height:72px; overflow:hidden; margin:15px 0;}
+.pack #content ul li .div b {font-size:16px; font-weight:700; color:#ed1c24;}
+
+/* 패키지상품 상세 */
+.pack #content .info {overflow:hidden; margin-top:10px;}
+.pack #content .info img {float:left;}
+.pack #content .info dl {display:inline-block; float:right; width:475px; margin-left:30px; margin-top:-13px;}
+.pack #content .info dl dt,
+.pack #content .info dl dd {display:inline-block; float:left; border-top:1px solid #e4e4e4; font-size:14px; line-height:20px; color:#373636; padding:9px 0;}
+.pack #content .info dl dt {width:107px; font-weight:700; color:#0d0d0d; background:url(../img/bl/bl_footer_dt.png) no-repeat 4px center; padding-left:23px;}
+.pack #content .info dl dd {width:345px; font-size:13px; color:#666;}
+.pack #content .info dl dd p {font-size:13px; line-height:20px; color:#666;}
+.pack #content .info dl dd span {font-size:16px; font-weight:900; color:#ed1c24; margin-right:5px;}
+.pack #content .btn_res {text-align:right; margin:30px 0 40px 0;}
+.pack #content .btn_res a {display:inline-block; text-align:left; line-height:35px; width:95px; padding-left:55px; background:#0b5d99 url(../img/bl/bl_res_btn.gif) no-repeat 37px center; color:#fff; font-size:14px; font-weight:700;}
+.pack #content .detail {border-top:1px solid #e4e4e4;}
+.pack #content .detail h3 {font-size:22px; font-weight:700; color:#4c4c4c; padding-left:22px; background:url(../img/bl/bl_h3_pack.gif) no-repeat left center; line-height:20px; margin:40px 0 20px 0;}
+.pack #content .detail > div img {max-width:1005px; height:auto; margin-bottom:25px;}
+.pack #content .detail > div p {font-size:13px; color:#666; line-height:22px;}
+.pack #content .detail .sche {border-bottom:2px solid #cacaca;}
+
+/* 패키지상품 예약 */
+.pack #content .res {margin-top:10px;}
+.pack #content .res table input {width:100px;}
+.pack #content .res table input.phone {width:50px;}
+.pack #content .res table input.person {width:25px;}
+.pack #content .res table textarea {width:898px;}
+.pack #content .res table td span {display:inline-block; position:relative; top:5px; font-size:14px; margin:0 5px; padding-right:3px;}
+.pack #content .res table td label {display:inline-block; font-size:14px; margin:0 10px; line-height:28px; height:28px; padding-left:10px; background:url(../img/bl/bl_footer_dt.png) no-repeat left center;}
+
+/* 메인페이지 */
+.main #content {width:1060px; margin:0 auto; overflow:hidden; margin-top:20px;}
+.main #content > div {display:inline-block; float:left; height:450px; margin-bottom:20px;}
+.main #content .tour_map {width:795px;}
+.main #content .reco {width:233px; position:relative; padding:34px 16px 10px 16px; background:#fff; font-size:0;}
+.main #content .reco ul li h3 {font-size:18px; color:#0d0d0d; line-height:20px; margin-top:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.main #content .reco ul li span {display:block; font-size:12px; color:#7f7f7f; line-height:14px; margin-top:7px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.main #content .reco ul li strong {display:block; font-size:20px; font-weight:900; color:#ff0c0c; line-height:21px; margin-top:15px; margin-bottom:20px;}
+.main #content .reco ul li p {border-top:1px solid #ececec; font-size:12px; line-height:17px; padding-top:14px; color:#898989; word-break:keep-all; height:118px; overflow:hidden;}
+.main #content .reco ul li a {display:inline-block; float:left; width:113px; line-height:35px; font-size:14px; font-weight:700; color:#fff; background:#0b5d99; text-align:center; margin-top:7px;}
+.main #content .reco ul li a.detail {background:#525568; margin-right:6px;}
+.main #content .reco .bx-controls {position:absolute; top:6px; right:16px;}
+.main #content .reco .bx-controls a {display:inline-block; text-indent:-9999px; height:21px;}
+.main #content .reco .bx-controls .bx-prev {background:url(../img/btn/btn_slide_prev.gif) no-repeat; width:25px;}
+.main #content .reco .bx-controls .bx-next {background:url(../img/btn/btn_slide_next.gif) no-repeat; width:24px;}
+
+.main #content .prod {display:inline-block; overflow:hidden;}
+.main #content .prod > li {display:inline-block; float:left; width:215px; height:131px; padding:29px 25px 20px 25px;}
+.main #content .prod > li:first-child {background:url(../img/bg/bg_sub.gif) no-repeat; text-indent:-9999px;}
+.main #content .prod > li:nth-child(2) {background:#338bc4;}
+.main #content .prod > li:nth-child(3) {background:#71ae0c;}
+.main #content .prod > li:nth-child(4) {background:#e69e02;}
+.main #content .prod > li h2 {font-size:20px; font-weight:700; color:#fff;}
+.main #content .prod > li ul {margin-top:16px;}
+.main #content .prod > li a {display:block; line-height:20px; margin-top:4px; padding:0 4px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:13px; color:#fff;}
+.main #content .prod > li a:hover,
+.main #content .prod > li a:focus,
+.main #content .prod > li a:active {background:url(../img/bg/bg_deemed_1x1.png);}
+.main #content .customer {overflow:hidden;}
+.main #content .customer > li {display:inline-block; position:relative; float:left; width:224px; height:159px; padding:35px 20px 20px 20px; background:#fff; border-right:1px solid #ececec;}
+.main #content .customer > li h2 {color:#222; font-size:16px; font-weight:700;}
+.main #content .customer > li:first-child {width:488px; border-left:1px solid #ececec;}
+.main #content .customer > li ul {margin-top:24px;}
+.main #content .customer > li ul li a {display:block; width:100%; font-size:13px; color:#555; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; line-height:24px;}
+.main #content .customer > li > a {display:inline-block; position:absolute; right:15px; bottom:23px; width:43px; font-size:12px; color:#363636; background:url(../img/bl/bl_more.gif) no-repeat right center;}
+.main #content .customer > li img {float:left; margin-top:20px;}
+.main #content .customer > li .text {position:static; float:right; width:310px; background:none; margin-top:20px;}
+.main #content .customer > li .text strong {display:inline-block; font-size:18px; font-weight:700; color:#0d0d0d; width:310px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.main #content .customer > li .text span {display:inline-block; font-size:13px; color:#7f7f7f; line-height:20px; height:60px; overflow:hidden; margin-top:10px;}
+
+/* 배경 */
+.bg {width:100%; height:100%; position:fixed; left:0; top:0; z-index:-1;}
+.bg.pack {background:url(../img/bg/bg_pack.gif) no-repeat center top;}
+.bg.main {background:url(../img/bg/bg_main.gif) no-repeat center top;}
+
+/********************************* 서브페이지 *********************************/
+
+/* 인사말 */
+.greet {padding-right:296px; background:url(../img/bg/bg_greet.jpg) no-repeat right top; word-break:keep-all;}
+.greet .title {font-size:24px !important; color:#000; line-height:22px !important;}
+.greet .title strong {display:inline-block; font-size:24px; color:#f03840; line-height:22px; margin-top:8px; font-weight:500;}
+.greet p {font-size:13px; line-height:18px; color:#546167; margin-top:19px;}
+.greet p:first-child {margin-top:0;}
+.greet img {margin-top:52px;}
+
+/* CI */
+.ci dl {margin-top:40px; overflow:hidden; margin-bottom:-10px;}
+.ci dl dt,
+.ci dl dd {display:inline-block; float:left; line-height:35px; margin-top:10px;}
+.ci dl dt {width:130px; padding-left:57px; font-size:14px; font-weight:700; color:#333;}
+.ci dl dd {width:565px; font-size:14px; color:#546167;}
+.ci h3 + p + p {margin-top:19px;}
+.ci dl .ci01 {background:url(../img/bg/bg_ci_01.gif) no-repeat left center;}
+.ci dl .ci02 {background:url(../img/bg/bg_ci_02.gif) no-repeat left center;}
+.ci dl .ci03 {background:url(../img/bg/bg_ci_03.gif) no-repeat left center;}
+.ci dl .ci04 {background:url(../img/bg/bg_ci_04.gif) no-repeat left center;}
+
+/* 연혁 */
+.history {margin-top:-20px;}
+.history > div {position:relative; padding:30px 0; border-top:1px solid #e5e5e5; padding-left:121px;}
+.history > div:first-child {border-top:none;}
+.history > div h3 {position:absolute; display:inline-block; left:0; top:-10px; font-size:45px !important; font-weight:900; color:#888 !important; letter-spacing:-5px; width:100px;}
+.history .y2015 h3 {color:#3b5998 !important;}
+.history > div dl {overflow:hidden; margin-top:-35px;}
+.history > div dl dt,
+.history > div dl dd {display:inline-block; float:left; line-height:15px; color:#546167; margin-top:35px;}
+.history > div dl dt {width:40px; padding-left:29px; background:url(../img/bl/bl_history.gif) no-repeat left center; font-size:20px; font-weight:700;}
+.history > div dl dd {width:564px; font-size:13px;}
+
+/* 조직도 */
+.organ {height:409px; background:url(../img/bg/bg_organ.jpg) no-repeat; text-indent:-9999px;}
+
+/* 비전 */
+.vision {height:580px; background:url(../img/bg/bg_vision.jpg) no-repeat; text-indent:-9999px;}
+
+/* FAQ */
+.qna {border-top:2px solid #3b5998;}
+.qna dt {border-bottom:1px solid #e5e5e5;}
+.qna dt,
+.qna dd {padding:15px 0;}
+.qna dt a {display:block; background:url(../img/bl/bl_q_off.gif) no-repeat 10px 2px; font-size:13px; line-height:20px; padding-left:40px; color:#676767;}
+.qna dt a:hover,
+.qna dt a:focus,
+.qna dt a:active,
+.qna dt a.on {background:url(../img/bl/bl_q_on.gif) no-repeat 10px 2px;}
+.qna dd {background:url(../img/bl/bl_a.gif) no-repeat 10px 17px; border-bottom:1px solid #e5e5e5; padding-left:40px;}
+.qna dd p {font-size:13px !important; line-height:20px !important; color:#999 !important}
