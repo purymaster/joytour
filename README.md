@@ -15,7 +15,7 @@
 
 ## 코딩맵
 
-[코딩맵 바로가기] (codingmap.html)
+[코딩맵 바로가기](codingmap.html)
 
 ## HTML 코드 작성 규칙
 
