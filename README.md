@@ -15,7 +15,7 @@
 
 ## 코딩맵
 
-[코딩맵 바로가기](https://purymaster.github.io/joytour/codingmap.html)
+[코딩맵 바로가기](https://purymaster.github.io/joytour/codingmap.html){:target="_blank"}
 
 ## HTML 코드 작성 규칙
 
